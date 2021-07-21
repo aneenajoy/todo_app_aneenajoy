@@ -1,0 +1,170 @@
+/* common styling begins */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-size: 100% 100vh;
+}
+/* common styling ends */
+
+
+/* index page begins */
+#todohead{
+font-family: cursive;
+font-weight: bolder;
+font-size: 80px;
+margin-left: 13%;
+margin-top: 12%;
+}
+#todohead1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-left: 20%;
+}
+
+#todobtn{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 30px;
+margin-left: 22%;
+margin-top: 5%;
+width: 15%;
+background-color: deepskyblue;
+border-radius: 10%;
+}
+/* index page ends */
+
+
+/* login page begins */
+.login{
+  border: 3px solid blue;
+  border-radius: 5%;
+  background-color: beige;
+  margin-top: 8%;
+  width: 25%;
+  margin-left: 18%;
+  padding: 10px;
+  font-size: small;
+}
+#loginbtn{
+  margin-left: 35%;
+  background-color: blue;
+  color: white;
+  width: 30%;
+  margin-top: 10px;
+}
+
+#loginhead{
+  margin-top: 15px;
+  text-align: center;
+}
+.form-control input{
+  border: 2px solid black;
+  width: 80%;
+}
+
+#erroricon{
+  visibility: hidden;
+  margin-left:3px
+}
+#eye{
+  margin-left: -35px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.form-control small{
+  visibility: hidden;
+}
+.form-control{
+  border: none;
+}
+
+.form-control.success input{
+  border-color: green;
+}
+.form-control.error input{
+  border-color: red;
+}
+.form-control.success i.fa-check-circle{
+  visibility: visible;
+  color: green;
+}
+.form-control.error i.fa-exclamation-circle{
+  visibility: visible;
+  color: red;
+}
+.form-control.error small{
+  visibility: visible;
+  color: red;
+}
+/* login page ends */
+
+/* main page begins */
+#mainbody{
+  background-color: rgb(241, 209, 23);
+  text-align: center;
+}
+#mainhead{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-nav{
+margin-left: 20px;
+}
+#navbtn {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  margin-left: 5px;
+  color: white;
+  background-color: rgba(27, 76, 211, 0.877);
+  border-radius: 8%;
+  border: none;
+}
+#navbtn:hover{
+  background-color: turquoise;
+}
+
+
+#tablehead1{
+  visibility: hidden;
+  
+}
+#tablehead2{
+  visibility: hidden;
+}
+
+.task-table-header1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: rgb(8, 119, 255);
+}
+
+.task-table-header2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: rgb(8, 119, 255);
+}
+
+.task-label1 {
+  background-color: aliceblue;
+  padding: 3px 25px;
+  border-radius: 25px;
+}
+
+
+.task-label2 {
+  background-color: rgb(255, 252, 238);
+  padding: 3px 25px;
+  border-radius: 25px;
+}
+
+.task-done {
+  text-decoration: transparent;
+  color: #5ea1ee;
+}
+
+.borderless td {
+  border: none;
+}

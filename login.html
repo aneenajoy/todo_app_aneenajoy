@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a4de3ba993.js" crossorigin="anonymous"></script>
+</head>
+<body background="images/bg2.jpg">
+   
+
+  <!-- login form begins -->
+  <form id="log" class="login">
+    <h2 id="loginhead">Login</h2>
+    <br>
+    <div class="form-control">
+        <input id="username" class="col-sm-7" type="text" placeholder="Username">
+        <i id="erroricon" class="fas fa-check-circle"></i>
+        <i id="erroricon" class="fas fa-exclamation-circle"></i>
+        <small>Error msg</small>
+    </div>
+    
+    <div class="form-control">
+        <input id="password" class="col-sm-7" type="password" placeholder="Password">
+        <i id="eye" class="fa fa-eye" ></i>
+        <i id="erroricon" class="fas fa-check-circle"></i>
+        <i id="erroricon" class="fas fa-exclamation-circle"></i>
+        <small>Error msg</small>
+        <span id="StrengthDisp" class="badge displayBadge">Weak</span>
+    </div>
+    <br>
+    <div>
+        <button  id="loginbtn" onclick="validate(redirect)">Login</button>
+    </div>
+    <br>
+  </form>
+  <!-- login form ends -->
+<script src="loginvalidate.js"></script>
+</body>
+</html>
